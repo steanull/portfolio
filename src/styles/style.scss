@@ -1,0 +1,23 @@
+@import "modules/fonts.scss";
+@import "modules/variables.scss";
+@import "modules/mixins.scss";
+@import "modules/blocks/page/page.scss";
+@import "modules/blocks/offset/offset.scss";
+
+/*HEADER*/
+@import "modules/blocks/header/header.scss";
+@import "modules/blocks/header/__logo/header__logo.scss";
+@import "modules/blocks/header/__menu/header__menu.scss";
+
+/*MENU*/
+@import "modules/blocks/menu/menu.scss";
+@import "modules/blocks/menu/__link/menu__link.scss";
+@import "modules/blocks/menu/__list/menu__list.scss";
+@import "modules/blocks/menu/__item/menu__item.scss";
+
+/*LANG*/
+@import "modules/blocks/lang/lang.scss";
+@import "modules/blocks/lang/__item/lang__item.scss";
+@import "modules/blocks/lang/__link/lang__link.scss";
+@import "modules/blocks/lang/__link/_active/lang__link_active.scss";
+@import "modules/blocks/lang/__list/lang__list.scss";
