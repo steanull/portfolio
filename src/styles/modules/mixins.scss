@@ -4,9 +4,9 @@
   }
 }
 
-@mixin fontTitle($fontWeight, $fontSize, $lineHeight, $letterSpacing) {
+@mixin fontTitle($fontWeight, $fontSize, $lineHeight, $letterSpacing, $color) {
   font-style: normal;
-  color: var(--title-color);
+  color: $color;
   letter-spacing: $letterSpacing;
   font-weight: $fontWeight;
   font-size: $fontSize;

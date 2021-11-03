@@ -21,3 +21,24 @@
 @import "modules/blocks/lang/__link/lang__link.scss";
 @import "modules/blocks/lang/__link/_active/lang__link_active.scss";
 @import "modules/blocks/lang/__list/lang__list.scss";
+
+/*CONTENT*/
+@import "modules/blocks/content/content.scss";
+
+/*TOP_SLIDE*/
+@import "modules/blocks/top-slide/top-slide.scss";
+@import "modules/blocks/top-slide/__image/top-slide__image.scss";
+@import "modules/blocks/top-slide/__inner/top-slide__inner.scss";
+@import "modules/blocks/top-slide/__image-wrapper/top-slide__image-wrapper.scss";
+
+/*SAVOSKO*/
+@import "modules/blocks/savosko/savosko.scss";
+@import "modules/blocks/savosko/__container/savosko__container.scss";
+@import "modules/blocks/savosko/__description/savosko__description.scss";
+@import "modules/blocks/savosko/__text/savosko__text.scss";
+@import "modules/blocks/savosko/__title/savosko__title.scss";
+@import "modules/blocks/savosko/__list/savosko__list.scss";
+@import "modules/blocks/savosko/__item/savosko__item.scss";
+@import "modules/blocks/savosko/__link/savosko__link.scss";
+@import "modules/blocks/savosko/__menu/savosko__menu.scss";
+@import "modules/blocks/savosko/__link/_active/savosko__link_active.scss";
