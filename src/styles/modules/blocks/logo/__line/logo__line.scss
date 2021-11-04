@@ -1,0 +1,6 @@
+.logo__line {
+  position: relative;
+  & path {
+    transition: .3s;
+  }
+}

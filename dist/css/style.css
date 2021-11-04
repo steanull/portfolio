@@ -60,21 +60,12 @@ html {
 }
 
 .header__logo {
-  fill: #422D2D;
-  max-width: 50px;
+  max-width: 45px;
   width: 100%;
   margin-right: auto;
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   min-height: 60px;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.header__logo:hover {
-  fill: #898181;
-  max-width: 53px;
 }
 
 .header__menu {
@@ -377,6 +368,7 @@ html {
   -webkit-text-fill-color: transparent;
   margin: 0 0 80px;
   padding: 0;
+  pointer-events: none;
 }
 
 .savosko__list {
@@ -437,4 +429,81 @@ html {
 
 .savosko__link_active {
   color: #9E6262;
+}
+
+/*LOGO*/
+
+.logo {
+  fill: #422D2D;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+  z-index: 100;
+}
+
+.logo:hover {
+  fill: #898181;
+  max-width: 50px;
+}
+
+.logo:hover .logo__symbol {
+  fill: #422D2D;
+}
+
+.logo:hover .logo__line path:first-of-type {
+  -webkit-transform: translate(-7px, 0);
+      -ms-transform: translate(-7px, 0);
+          transform: translate(-7px, 0);
+}
+
+.logo:hover .logo__line path:last-of-type {
+  -webkit-transform: translate(7px, 0);
+      -ms-transform: translate(7px, 0);
+          transform: translate(7px, 0);
+}
+
+.logo:hover .logo__symbol-line {
+  fill: #422D2D;
+}
+
+.logo:hover .logo__symbol-line polygon:first-of-type {
+  -webkit-transform: translate(0, 2px);
+      -ms-transform: translate(0, 2px);
+          transform: translate(0, 2px);
+}
+
+.logo:hover .logo__symbol-line polygon:last-of-type {
+  -webkit-transform: translate(0, -2px);
+      -ms-transform: translate(0, -2px);
+          transform: translate(0, -2px);
+}
+
+.logo__symbol {
+  fill: #898181;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.logo__line {
+  position: relative;
+}
+
+.logo__line path {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.logo__symbol-line {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.logo__symbol-line polygon {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
