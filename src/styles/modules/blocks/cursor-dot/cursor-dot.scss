@@ -1,0 +1,12 @@
+.cursor-dot {
+  position: absolute;
+  border-radius: 50%;
+  transition: .5s cubic-bezier(.75,-1.27,.3,2.33) transform, .2s cubic-bezier(.75,-1.27,.3,2.33) opacity;
+  user-select: none;
+  background-color: rgba(#9e6262, .6);
+  pointer-events: none;
+  z-index: 10000;
+  width: 6px;
+  height: 6px;
+  transform: scale(1);
+}

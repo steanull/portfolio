@@ -97,4 +97,3 @@ document.addEventListener('DOMContentLoaded', () => {
         cursorArea.classList.add('cursor-area__hidden')
     })
 })
-;

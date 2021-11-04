@@ -49,3 +49,13 @@
 @import "modules/blocks/logo/__symbol/logo__symbol.scss";
 @import "modules/blocks/logo/__line/logo__line.scss";
 @import "modules/blocks/logo/__symbol-line/logo__symbol-line.scss";
+
+/*CURSOR_DOT*/
+@import "modules/blocks/cursor-dot/cursor-dot.scss";
+@import "modules/blocks/cursor-dot/__active/cursor-dot__active.scss";
+@import "modules/blocks/cursor-dot/__hidden/cursor-dot__hidden.scss";
+
+/*CURSOR_AREA*/
+@import "modules/blocks/cursor-area/cursor-area.scss";
+@import "modules/blocks/cursor-area/__active/cursor-area__active.scss";
+@import "modules/blocks/cursor-area/__hidden/cursor-area__hidden.scss";

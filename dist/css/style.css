@@ -22,8 +22,7 @@
   background-color: #9E6262;
 }
 
-body,
-html {
+.page {
   background: #0a0a0a;
   background: -o-linear-gradient(32deg, #0a0a0a 0%, #392626 100%) no-repeat;
   background: linear-gradient(58deg, #0a0a0a 0%, #392626 100%) no-repeat;
@@ -32,6 +31,8 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", Arial, sans-serif;
+  overflow: hidden;
+  cursor: none;
 }
 
 .offset {
@@ -93,6 +94,7 @@ html {
   -o-transition: 0.5s;
   transition: 0.5s;
   position: relative;
+  cursor: none;
 }
 
 .menu__link:after {
@@ -168,6 +170,7 @@ html {
   -o-transition: 0.5s;
   transition: 0.5s;
   position: relative;
+  cursor: none;
 }
 
 .lang__link:after {
@@ -506,4 +509,78 @@ html {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+}
+
+/*CURSOR_DOT*/
+
+.cursor-dot {
+  position: absolute;
+  border-radius: 50%;
+  -webkit-transition: 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity, 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  transition: 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity, 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  -o-transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+  transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+  transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity, 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: rgba(158, 98, 98, 0.6);
+  pointer-events: none;
+  z-index: 10000;
+  width: 6px;
+  height: 6px;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+
+.cursor-dot__active {
+  opacity: 0;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+}
+
+.cursor-dot__hidden {
+  -webkit-transform: scale(0.001);
+      -ms-transform: scale(0.001);
+          transform: scale(0.001);
+}
+
+/*CURSOR_AREA*/
+
+.cursor-area {
+  position: absolute;
+  border-radius: 100%;
+  -webkit-transition: 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity, 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  transition: 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity, 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  -o-transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+  transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+  transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity, 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+  z-index: 10000;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.027);
+  -webkit-transform: translate(5px, 5px);
+      -ms-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+}
+
+.cursor-area__active {
+  border: 1.2px solid rgba(255, 255, 255, 0.33);
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.cursor-area__hidden {
+  -webkit-transform: scale(0.001);
+      -ms-transform: scale(0.001);
+          transform: scale(0.001);
 }
