@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const links = document.querySelectorAll('a');
     const logo = document.querySelector('.logo');
     const savoskoLink = document.querySelectorAll('.savosko__link');
+    const savoskoButton = document.querySelectorAll('.savosko__button');
 
     let mouseX = 0;
     let mouseY = 0;
@@ -79,6 +80,19 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
     savoskoLink.forEach((item) => {
+
+        item.addEventListener('mouseover', () => {
+            cursorDot.classList.add('cursor-dot__active')
+            cursorArea.classList.add('cursor-area__active')
+        })
+
+        item.addEventListener('mouseout', () => {
+            cursorDot.classList.remove('cursor-dot__active')
+            cursorArea.classList.remove('cursor-area__active')
+        })
+    })
+
+    savoskoButton.forEach((item) => {
 
         item.addEventListener('mouseover', () => {
             cursorDot.classList.add('cursor-dot__active')

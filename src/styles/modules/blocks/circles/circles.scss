@@ -1,0 +1,19 @@
+.circles {
+  width: 99%;
+  height: 100vh;
+  position: fixed;
+  overflow: hidden
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: .3;
+    border-radius: 20%;
+  }
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%
+  }
+}

@@ -3,4 +3,6 @@
   display: flex;
   align-content: end;
   align-items: end;
+  position: relative;
+  z-index: 10000;
 }
