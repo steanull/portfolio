@@ -1,4 +1,8 @@
 .savosko__container {
   max-width: 450px;
   width: 100%;
+  transition: .5s;
+  &:last-of-type {
+    display: none;
+  }
 }

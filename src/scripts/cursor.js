@@ -105,6 +105,9 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     })
 
+
+
+
     //Add class hidden when mouse outside
     body.addEventListener('mouseout', () => {
         cursorDot.classList.add('cursor-dot__hidden')

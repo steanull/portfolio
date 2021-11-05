@@ -1,0 +1,7 @@
+.savosko__clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}

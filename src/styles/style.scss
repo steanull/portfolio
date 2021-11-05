@@ -34,6 +34,7 @@
 /*SAVOSKO*/
 @import "modules/blocks/savosko/savosko.scss";
 @import "modules/blocks/savosko/__container/savosko__container.scss";
+@import "modules/blocks/savosko/__container/_hidden/savosko__container_hidden.scss";
 @import "modules/blocks/savosko/__description/savosko__description.scss";
 @import "modules/blocks/savosko/__text/savosko__text.scss";
 @import "modules/blocks/savosko/__title/savosko__title.scss";
@@ -43,6 +44,7 @@
 @import "modules/blocks/savosko/__menu/savosko__menu.scss";
 @import "modules/blocks/savosko/__link/_active/savosko__link_active.scss";
 @import "modules/blocks/savosko/__button/savosko__button.scss";
+@import "modules/blocks/savosko/__clearfix/savosko__clearfix.scss";
 
 /*LOGO*/
 @import "modules/blocks/logo/logo.scss";
