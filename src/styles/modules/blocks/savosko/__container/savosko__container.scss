@@ -2,7 +2,20 @@
   max-width: 450px;
   width: 100%;
   transition: .5s;
+  animation-name: fadeInLeft;
+  animation-duration: 1.8s;
+  animation-fill-mode: both;
+
   &:last-of-type {
     display: none;
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: .4;
+  }
+
+  to {
+    opacity: 1;
   }
 }
