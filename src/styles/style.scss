@@ -45,6 +45,8 @@
 @import "modules/blocks/savosko/__link/_active/savosko__link_active.scss";
 @import "modules/blocks/savosko/__button/savosko__button.scss";
 @import "modules/blocks/savosko/__clearfix/savosko__clearfix.scss";
+@import "modules/blocks/savosko/__social-wrapper/savosko__social-wrapper.scss";
+@import "modules/blocks/savosko/__social-list/savosko__social-list.scss";
 
 /*LOGO*/
 @import "modules/blocks/logo/logo.scss";
@@ -67,3 +69,9 @@
 @import "modules/blocks/circles/circles.scss";
 @import "modules/blocks/circles/__item/circles__item.scss";
 @import "modules/blocks/circles/__list/circles__list.scss";
+
+/*SOCIAL-LINKS*/
+@import "modules/blocks/social-links/social-links.scss";
+@import "modules/blocks/social-links/__item/social-links__item.scss";
+@import "modules/blocks/social-links/__icon/social-links__icon.scss";
+@import "modules/blocks/social-links/__link/social-links__link.scss";

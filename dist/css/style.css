@@ -561,6 +561,27 @@
   display: table;
 }
 
+.savosko__social-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.savosko__social-list {
+  margin: 40px 40px 0 0;
+  padding: 0;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
 /*LOGO*/
 
 .logo {
@@ -871,4 +892,42 @@
   width: 96%;
   height: 100%;
   overflow: hidden;
+}
+
+/*SOCIAL-LINKS*/
+
+.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social-links__item {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links__icon {
+  width: 30px;
+  fill: #664848;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.social-links__icon:hover {
+  fill: #9E6262;
+}
+
+.social-links__link {
+  margin: 0 5px;
+  text-decoration: none;
+  -webkit-transform: translateZ(-25px);
+          transform: translateZ(-25px);
 }
