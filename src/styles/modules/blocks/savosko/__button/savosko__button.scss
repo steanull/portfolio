@@ -11,9 +11,10 @@
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
   font-family: Montserrat,Arial,sans-serif;
   cursor: none;
-  opacity: .7;
+  opacity: .1;
   position: relative;
   transition: all 0.2s linear 0s;
+  transform: translateZ(5px);
   &:before {
     content: "";
     width: 20px;

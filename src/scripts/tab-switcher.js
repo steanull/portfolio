@@ -14,7 +14,10 @@ for (let i = 0; i < tabLink.length; i++) {
             item.classList.remove("savosko__link_active");
         })
         // Make visible correct container and add class to link
+
         tabContent[i].classList.remove("savosko__container_hidden");
         tabLink[i].classList.add("savosko__link_active");
+        gsap.to('.savosko__description', {opacity: .5, duration: 0, delay: 0});
+        gsap.to('.savosko__description', {opacity: 1});
     });
 }

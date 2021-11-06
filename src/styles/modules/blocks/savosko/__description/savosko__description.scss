@@ -3,4 +3,6 @@
   padding: 0 0 20px 0;
   @include font (300, 16px, 28px, #A9A5A5);
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+  transform: translateZ(-40px);
+  opacity: .2;
 }

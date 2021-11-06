@@ -6,4 +6,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transform-style: preserve-3d;
+  transform: translateZ(40px);
 }

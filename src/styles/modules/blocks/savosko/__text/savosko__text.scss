@@ -4,6 +4,7 @@
   grid-row-end: 2;
   grid-column-end: 3;
   margin: 0;
+  opacity: .2;
   padding: 0 0 0 50px;
   position: relative;
   @include font(300, 18px, 22px, #7F7875);
@@ -19,5 +20,6 @@
     height:10px;
     content: url("../img/vertical-line.png");
     background-position: center;
+    transform: translateZ(20px);
   }
 }
