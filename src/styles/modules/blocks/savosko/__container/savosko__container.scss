@@ -1,0 +1,18 @@
+.savosko__container {
+  max-width: 450px;
+  width: 100%;
+  transform-style: preserve-3d;
+
+  &:last-of-type {
+    display: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}

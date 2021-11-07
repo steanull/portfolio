@@ -1,0 +1,7 @@
+.savosko__link {
+  left: 0;
+  @include font (300, 18px, 24px, #A9A5A5);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+  transition: .5s;
+  opacity: .4;
+}

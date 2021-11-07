@@ -1,0 +1,8 @@
+.top-slide {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 130px);
+  max-width: 1500px;
+  width: 100%;
+  perspective: 1000px;
+}

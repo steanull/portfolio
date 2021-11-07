@@ -1,0 +1,77 @@
+@import "modules/fonts.scss";
+@import "modules/variables.scss";
+@import "modules/mixins.scss";
+@import "modules/blocks/page/page.scss";
+@import "modules/blocks/offset/offset.scss";
+
+/*HEADER*/
+@import "modules/blocks/header/header.scss";
+@import "modules/blocks/header/__logo/header__logo.scss";
+@import "modules/blocks/header/__menu/header__menu.scss";
+
+/*MENU*/
+@import "modules/blocks/menu/menu.scss";
+@import "modules/blocks/menu/__link/menu__link.scss";
+@import "modules/blocks/menu/__list/menu__list.scss";
+@import "modules/blocks/menu/__item/menu__item.scss";
+
+/*LANG*/
+@import "modules/blocks/lang/lang.scss";
+@import "modules/blocks/lang/__item/lang__item.scss";
+@import "modules/blocks/lang/__link/lang__link.scss";
+@import "modules/blocks/lang/__link/_active/lang__link_active.scss";
+@import "modules/blocks/lang/__list/lang__list.scss";
+
+/*CONTENT*/
+@import "modules/blocks/content/content.scss";
+
+/*TOP_SLIDE*/
+@import "modules/blocks/top-slide/top-slide.scss";
+@import "modules/blocks/top-slide/__image/top-slide__image.scss";
+@import "modules/blocks/top-slide/__inner/top-slide__inner.scss";
+@import "modules/blocks/top-slide/__image-wrapper/top-slide__image-wrapper.scss";
+
+/*SAVOSKO*/
+@import "modules/blocks/savosko/savosko.scss";
+@import "modules/blocks/savosko/__container/savosko__container.scss";
+@import "modules/blocks/savosko/__container/_hidden/savosko__container_hidden.scss";
+@import "modules/blocks/savosko/__description/savosko__description.scss";
+@import "modules/blocks/savosko/__text/savosko__text.scss";
+@import "modules/blocks/savosko/__title/savosko__title.scss";
+@import "modules/blocks/savosko/__list/savosko__list.scss";
+@import "modules/blocks/savosko/__item/savosko__item.scss";
+@import "modules/blocks/savosko/__link/savosko__link.scss";
+@import "modules/blocks/savosko/__menu/savosko__menu.scss";
+@import "modules/blocks/savosko/__link/_active/savosko__link_active.scss";
+@import "modules/blocks/savosko/__button/savosko__button.scss";
+@import "modules/blocks/savosko/__clearfix/savosko__clearfix.scss";
+@import "modules/blocks/savosko/__social-wrapper/savosko__social-wrapper.scss";
+@import "modules/blocks/savosko/__social-list/savosko__social-list.scss";
+
+/*LOGO*/
+@import "modules/blocks/logo/logo.scss";
+@import "modules/blocks/logo/__frame/logo__frame.scss";
+@import "modules/blocks/logo/__symbol/logo__symbol.scss";
+@import "modules/blocks/logo/__line/logo__line.scss";
+@import "modules/blocks/logo/__symbol-line/logo__symbol-line.scss";
+
+/*CURSOR_DOT*/
+@import "modules/blocks/cursor-dot/cursor-dot.scss";
+@import "modules/blocks/cursor-dot/__active/cursor-dot__active.scss";
+@import "modules/blocks/cursor-dot/__hidden/cursor-dot__hidden.scss";
+
+/*CURSOR_AREA*/
+@import "modules/blocks/cursor-area/cursor-area.scss";
+@import "modules/blocks/cursor-area/__active/cursor-area__active.scss";
+@import "modules/blocks/cursor-area/__hidden/cursor-area__hidden.scss";
+
+/*CIRCLES*/
+@import "modules/blocks/circles/circles.scss";
+@import "modules/blocks/circles/__item/circles__item.scss";
+@import "modules/blocks/circles/__list/circles__list.scss";
+
+/*SOCIAL-LINKS*/
+@import "modules/blocks/social-links/social-links.scss";
+@import "modules/blocks/social-links/__item/social-links__item.scss";
+@import "modules/blocks/social-links/__icon/social-links__icon.scss";
+@import "modules/blocks/social-links/__link/social-links__link.scss";
