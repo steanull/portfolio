@@ -19,5 +19,7 @@ for (let i = 0; i < tabLink.length; i++) {
         tabLink[i].classList.add("savosko__link_active");
         gsap.to('.savosko__description', {opacity: .5, duration: 0, delay: 0});
         gsap.to('.savosko__description', {opacity: 1});
+        gsap.to('.social-links__item', {opacity: .5, duration: 0, delay: 0});
+        gsap.to('.social-links__item', {opacity: 1});
     });
 }

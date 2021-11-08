@@ -911,6 +911,7 @@
 .social-links__item {
   list-style: none;
   padding: 0;
+  opacity: 0.1;
 }
 
 .social-links__icon {

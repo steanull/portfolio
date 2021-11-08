@@ -136,6 +136,8 @@ for (let i = 0; i < tabLink.length; i++) {
         tabLink[i].classList.add("savosko__link_active");
         gsap.to('.savosko__description', {opacity: .5, duration: 0, delay: 0});
         gsap.to('.savosko__description', {opacity: 1});
+        gsap.to('.social-links__item', {opacity: .5, duration: 0, delay: 0});
+        gsap.to('.social-links__item', {opacity: 1});
     });
 };
 document.addEventListener('DOMContentLoaded', () => {
@@ -166,6 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
     gsap.to('.savosko__text', {opacity: 1, duration: 2});
     gsap.to('.savosko__title', {opacity: 1, duration: 3, delay: .3});
     gsap.to('.savosko__link', {opacity: .9, duration: .9});
-    gsap.to('.savosko__button', {opacity: 1, duration: 1.5, delay: 1.2});
+    gsap.to('.savosko__button', {opacity: 1, duration: 1.5, delay: 0.8});
     gsap.to('.savosko__description', {opacity: 1, duration: .8, delay: .7});
+    gsap.to('.social-links__item', {opacity: 1, duration: 2, delay: 1.5});
 });;
