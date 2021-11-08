@@ -360,6 +360,7 @@
   -webkit-transform: translateZ(-40px);
           transform: translateZ(-40px);
   opacity: 0.2;
+  min-height: 115px;
 }
 
 .savosko__text {
@@ -439,7 +440,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 320px;
+  width: 350px;
   min-height: 30px;
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
@@ -460,20 +461,21 @@
   color: #A9A5A5;
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   opacity: 0.4;
+  cursor: none;
 }
 
 .savosko__menu {
   position: relative;
   max-width: 30px;
   width: 100%;
-  min-height: 320px;
+  min-height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -930,6 +932,7 @@
   text-decoration: none;
   -webkit-transform: translateZ(-25px);
           transform: translateZ(-25px);
+  cursor: none;
 }
 
 /*PRELOADER*/
