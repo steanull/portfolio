@@ -75,3 +75,12 @@
 @import "modules/blocks/social-links/__item/social-links__item.scss";
 @import "modules/blocks/social-links/__icon/social-links__icon.scss";
 @import "modules/blocks/social-links/__link/social-links__link.scss";
+
+/*PRELOADER*/
+@import "modules/blocks/preloader/preloader.scss";
+@import "modules/blocks/preloader/__item/preloader__item.scss";
+@import "modules/blocks/preloader/__logo/preloader__logo.scss";
+
+/*LOAD*/
+@import "modules/blocks/load/load.scss";
+@import "modules/blocks/load/__hidden/load__hidden.scss";

@@ -1,3 +1,4 @@
+@@include('page-loader.js');
 @@include('cursor.js');
 @@include('tab-switcher.js');
 @@include('parallax.js');
