@@ -6,4 +6,8 @@
   transform: translateZ(-40px);
   opacity: .2;
   min-height: 115px;
+  @include media(1400px) {
+    @include font (300, 16px, 28px, #A9A5A5);
+    min-height: 112px;
+  }
 }

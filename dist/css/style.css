@@ -1038,3 +1038,48 @@
   transition: 0.6s opacity;
   opacity: 0;
 }
+
+@media screen and (max-width: 1400px) {
+  .top-slide__image {
+    max-width: 550px;
+  }
+
+  .savosko__description {
+    color: #A9A5A5;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    min-height: 112px;
+  }
+
+  .savosko__text {
+    color: #7F7875;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .savosko__text:before {
+    bottom: 8px;
+    width: 20px;
+    height: 9px;
+  }
+
+  .savosko__title {
+    font-style: normal;
+    color: #745252;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 54px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    margin: 0 0 60px;
+  }
+}

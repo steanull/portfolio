@@ -6,13 +6,17 @@
   opacity: .2;
   position: relative;
   right: 10px;
-  @include fontTitle (400, 54px, 66px, 1px, #745252);
+  @include fontTitle(400, 54px, 66px, 1px, #745252);
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(25deg, rgba(79,55,55,1) 0%, rgba(136,97,97,1) 100%);
+  background: linear-gradient(25deg, rgba(79, 55, 55, 1) 0%, rgba(136, 97, 97, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0 0 80px;
   padding: 0;
   pointer-events: none;
   transform: translateZ(50px);
+  @include media(1400px) {
+    @include fontTitle(400, 44px, 54px, 1px, #745252);
+    margin: 0 0 60px;
+    }
 }
