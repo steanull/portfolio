@@ -275,11 +275,12 @@
 }
 
 .top-slide__inner {
-  width: 50%;
+  width: 45%;
+  margin-left: 20px;
 }
 
 .top-slide__image-wrapper {
-  width: 50%;
+  width: 55%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -504,8 +505,8 @@
   border-radius: 10px;
   background: -o-linear-gradient(357.59deg, #603E3E -38.39%, #2B1C1C 122.97%);
   background: linear-gradient(92.41deg, #603E3E -38.39%, #2B1C1C 122.97%);
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   color: #a9a5a5;
   font-style: normal;
   font-weight: 300;
@@ -928,7 +929,7 @@
 }
 
 .social-links__link {
-  margin: 0 5px;
+  margin: 0 4px;
   text-decoration: none;
   -webkit-transform: translateZ(-25px);
           transform: translateZ(-25px);
@@ -1081,5 +1082,94 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     margin: 0 0 60px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .menu__link {
+    font-size: 14px;
+  }
+
+  .top-slide__inner {
+    margin-left: 20;
+  }
+
+  .savosko {
+    gap: 0 40px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .savosko__container {
+    max-width: 320px;
+  }
+
+  .savosko__description {
+    color: #A9A5A5;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    min-height: 115px;
+  }
+
+  .savosko__title {
+    font-style: normal;
+    color: #745252;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 44px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    margin: 0 0 40px;
+  }
+
+  .savosko__link {
+    font-size: 18px;
+  }
+
+  .savosko__button {
+    margin: 0 10px 0 0;
+    max-width: 130px;
+    width: 100%;
+    min-height: 35px;
+  }
+
+  .savosko__button:before {
+    content: "";
+    width: 15px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 65.92 37.04'%3E%3Cg%3E%3Cpath fill='%239b9998' d='M65,16.86,40.61.32a2,2,0,0,0-3,1.65V15.53a1,1,0,0,1-1,1H2a2,2,0,0,0,0,4H38.51a3,3,0,0,0,3-3V7.59a1,1,0,0,1,1-1,1,1,0,0,1,.55.17L59.16,17.7A1,1,0,0,1,59.44,19a.75.75,0,0,1-.28.28L43,30.25A1,1,0,0,1,41.66,30a1,1,0,0,1-.17-.55V26.65a2,2,0,0,0-4,0v8.4a2,2,0,0,0,1,1.75,1.92,1.92,0,0,0,.93.24,2,2,0,0,0,1.11-.34L65,20.16a2,2,0,0,0,0-3.3Z'/%3E%3C/g%3E%3C/svg%3E");
+    height: 8px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    right: 10px;
+    top: 13px;
+    opacity: 0;
+    background-size: cover;
+    -webkit-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+  }
+
+  .savosko__social-list {
+    margin: 0;
+  }
+
+  .social-links__icon {
+    width: 24px;
   }
 }

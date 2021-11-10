@@ -6,6 +6,10 @@
   &:last-of-type {
     display: none;
   }
+
+  @include media(1279px) {
+    max-width: 320px;
+  }
 }
 
 @keyframes fadeInLeft {

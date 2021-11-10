@@ -10,4 +10,8 @@
     @include font (300, 16px, 28px, #A9A5A5);
     min-height: 112px;
   }
+  @include media(1279px) {
+    @include font (300, 14px, 23px, #A9A5A5);
+    min-height: 115px;
+  }
 }

@@ -4,6 +4,11 @@
   grid-template-columns: repeat(2, minmax(min-content, max-content));
   justify-content: flex-start;
   align-content: center;
-  gap:0 80px;
+  gap: 0 80px;
   transform-style: preserve-3d;
+
+  @include media(1279px) {
+    gap: 0 40px;
+    justify-content: center;
+  }
 }
