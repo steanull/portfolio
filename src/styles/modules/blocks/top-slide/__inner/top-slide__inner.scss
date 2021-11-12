@@ -2,7 +2,8 @@
   width: 45%;
   margin-left: 20px;
 
-  @include media(1279px) {
-    margin-left: 20;
+  @include media(779px) {
+    width: 100%;
+    margin: 0;
   }
 }

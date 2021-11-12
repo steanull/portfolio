@@ -10,6 +10,10 @@
   @include media(1279px) {
     max-width: 320px;
   }
+
+  @include media(779px) {
+    display: none;
+  }
 }
 
 @keyframes fadeInLeft {

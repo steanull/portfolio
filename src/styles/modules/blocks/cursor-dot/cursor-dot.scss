@@ -9,4 +9,8 @@
   width: 6px;
   height: 6px;
   transform: scale(1);
+
+  @include media(779px) {
+    display: none;
+  }
 }

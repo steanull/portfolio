@@ -9,4 +9,8 @@
   @include media(1279px) {
     font-size: 18px;
   }
+
+  @include media(779px) {
+    font-size: 16px;
+  }
 }

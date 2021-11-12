@@ -1,4 +1,8 @@
 .header__menu {
   margin: 0 20% 0 0;
   padding: 0;
+
+  @include media(779px) {
+    display: none;
+  }
 }

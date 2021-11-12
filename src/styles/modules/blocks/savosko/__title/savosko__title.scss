@@ -23,4 +23,9 @@
     @include fontTitle(400, 34px, 44px, 1px, #745252);
     margin: 0 0 40px;
   }
+  @include media(779px) {
+    margin: 0 0 20px 10px;
+    @include fontTitle(400, 28px, 44px, 1px, #745252);
+    transform: translateZ(0);
+  }
 }
