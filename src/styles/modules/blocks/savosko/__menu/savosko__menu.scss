@@ -2,10 +2,19 @@
   position: relative;
   max-width: 30px;
   width: 100%;
-  min-height: 320px;
+  min-height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   transform-style: preserve-3d;
   transform: translateZ(40px);
+  z-index: 20000;
+
+  @include media(779px) {
+    position: absolute;
+    align-items: flex-end;
+    top: 270px;
+    left: 0;
+    opacity: .5;
+  }
 }

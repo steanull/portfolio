@@ -9,4 +9,8 @@
   height: 50px;
   background-color: rgba(#fff, .027);
   transform: translate(5px, 5px);
+
+  @include media(779px) {
+    display: none;
+  }
 }

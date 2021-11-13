@@ -32,4 +32,8 @@
     width: 70%;
     background: rgba(158, 98, 98, 1);
   }
+
+  @include media(1279px) {
+    font-size: 14px;
+  }
 }

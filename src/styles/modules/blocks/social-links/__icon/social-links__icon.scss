@@ -5,4 +5,7 @@
   &:hover {
     fill: #9E6262;
   }
+  @include media(1279px) {
+    width: 24px;
+  }
 }

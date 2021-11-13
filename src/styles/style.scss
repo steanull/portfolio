@@ -75,3 +75,23 @@
 @import "modules/blocks/social-links/__item/social-links__item.scss";
 @import "modules/blocks/social-links/__icon/social-links__icon.scss";
 @import "modules/blocks/social-links/__link/social-links__link.scss";
+
+/*PRELOADER*/
+@import "modules/blocks/preloader/preloader.scss";
+@import "modules/blocks/preloader/__item/preloader__item.scss";
+@import "modules/blocks/preloader/__logo/preloader__logo.scss";
+
+/*LOAD*/
+@import "modules/blocks/load/load.scss";
+@import "modules/blocks/load/__hidden/load__hidden.scss";
+
+/*POPUP*/
+@import "modules/blocks/popup/popup.scss";
+@import "modules/blocks/popup/_opened/popup_opened.scss";
+@import "modules/blocks/popup/__button/popup__button.scss";
+@import "modules/blocks/popup/__container/popup__container.scss";
+@import "modules/blocks/popup/__description/popup__description.scss";
+@import "modules/blocks/popup/__text/popup__text.scss";
+@import "modules/blocks/popup/__title/popup__title.scss";
+@import "modules/blocks/popup/__social-button/popup__social-button.scss";
+@import "modules/blocks/popup/__social-list/popup__social-list.scss";

@@ -2,4 +2,7 @@
   margin: 40px 40px 0 0;
   padding: 0;
   transform-style: preserve-3d;
+  @include media(1279px) {
+    margin: 0;
+  }
 }

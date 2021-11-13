@@ -1,3 +1,10 @@
+window.onload = function () {
+    document.body.classList.add('load_hidden');
+    window.setTimeout(function () {
+        document.body.classList.add('load');
+        document.body.classList.remove('load_hidden');
+    }, 700);
+};
 document.addEventListener('DOMContentLoaded', () => {
 
     const body = document.querySelector('body');
@@ -136,6 +143,8 @@ for (let i = 0; i < tabLink.length; i++) {
         tabLink[i].classList.add("savosko__link_active");
         gsap.to('.savosko__description', {opacity: .5, duration: 0, delay: 0});
         gsap.to('.savosko__description', {opacity: 1});
+        gsap.to('.social-links__item', {opacity: .5, duration: 0, delay: 0});
+        gsap.to('.social-links__item', {opacity: 1});
     });
 };
 document.addEventListener('DOMContentLoaded', () => {
@@ -151,14 +160,17 @@ document.addEventListener('DOMContentLoaded', () => {
         clientY = e.pageY - 300;
         request = requestAnimationFrame(parallax);
     })
+
     function parallax() {
-        dx     = clientX - cx;
-        dy     = clientY - cy;
-        tiltx  = dy / cy;
-        tilty  = dx / cx;
+        dx = clientX - cx;
+        dy = clientY - cy;
+        tiltx = dy / cy;
+        tilty = dx / cx;
         radius = Math.sqrt(Math.pow(tiltx, 2) + Math.pow(tilty, 2));
         degree = radius * 12;
-        gsap.to('.savosko', 1, { transform: `rotate3d( ${tiltx}, ${tilty}, 0, ${degree}deg )` });
+        if (window.matchMedia('(min-width: 769px)').matches) {
+            gsap.to('.savosko', 1, {transform: `rotate3d( ${tiltx}, ${tilty}, 0, ${degree}deg )`});
+        }
     }
 })
 ;
@@ -166,6 +178,25 @@ document.addEventListener('DOMContentLoaded', () => {
     gsap.to('.savosko__text', {opacity: 1, duration: 2});
     gsap.to('.savosko__title', {opacity: 1, duration: 3, delay: .3});
     gsap.to('.savosko__link', {opacity: .9, duration: .9});
-    gsap.to('.savosko__button', {opacity: 1, duration: 1.5, delay: 1.2});
+    gsap.to('.savosko__button', {opacity: 1, duration: 1.5, delay: 0.8});
     gsap.to('.savosko__description', {opacity: 1, duration: .8, delay: .7});
+    gsap.to('.social-links__item', {opacity: 1, duration: 2, delay: 1.5});
 });;
+let popup = document.querySelectorAll('.popup');
+let popupCloseBtn = document.querySelectorAll('.popup__button');
+let popupBtn = document.querySelectorAll('.savosko__item');
+
+
+function togglePopup(){
+    let index = Array.from(popupBtn).indexOf(this);
+    popup[index].classList.add("popup_opened");
+    popupCloseBtn.forEach(item => {
+        item.addEventListener('click', function () {
+            popup[index].classList.remove('popup_opened');
+        });
+    });
+}
+
+popupBtn.forEach( btn => btn.addEventListener( 'click', togglePopup ) );
+
+;

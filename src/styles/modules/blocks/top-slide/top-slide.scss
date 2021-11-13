@@ -1,8 +1,16 @@
 .top-slide {
   display: flex;
   flex-direction: row;
-  height: calc(100vh - 130px);
   max-width: 1500px;
   width: 100%;
+  height: 100%;
   perspective: 1000px;
+
+  @include media(779px) {
+    height: 100%;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    padding: 40px 0;
+    box-sizing: border-box;
+  }
 }

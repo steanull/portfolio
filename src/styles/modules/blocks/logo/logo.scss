@@ -3,28 +3,32 @@
   transition: .5s;
   position: relative;
   z-index: 100;
+
   &:hover {
     fill: #898181;
-    max-width: 50px;
   }
+
   &:hover .logo__symbol {
     fill: #422D2D;
   }
-  &:hover .logo__line path:first-of-type {
-    transform: translate(-7px,0);
-  }
-  &:hover .logo__line path:last-of-type {
-    transform: translate(7px,0);
 
+  &:hover .logo__line path:first-of-type {
+    transform: translate(-7px, 0);
   }
+
+  &:hover .logo__line path:last-of-type {
+    transform: translate(7px, 0);
+  }
+
   &:hover .logo__symbol-line {
     fill: #422D2D;
   }
+
   &:hover .logo__symbol-line polygon:first-of-type {
     transform: translate(0, 2px);
   }
+
   &:hover .logo__symbol-line polygon:last-of-type {
     transform: translate(0, -2px);
-
   }
 }

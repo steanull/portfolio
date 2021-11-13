@@ -1,8 +1,27 @@
 .top-slide__image-wrapper {
-  width: 50%;
+  width: 55%;
   display: flex;
   align-content: end;
   align-items: end;
   position: relative;
   z-index: 10000;
+
+  @include media(779px) {
+    width: 100%;
+    max-width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  @include media(440px) {
+    width: 110%;
+    position: absolute;
+    left: -5%;
+    margin-left: 0;
+    overflow: hidden;
+    bottom: 0;
+    z-index: -1;
+  }
 }

@@ -1,0 +1,21 @@
+.popup__social-button {
+  border: 0;
+  margin-top: 40px;
+  max-width: 150px;
+  width: 100%;
+  min-height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(92.41deg, #603E3E -38.39%, #2B1C1C 122.97%);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  @include font(300, 14px, 20px, #a9a5a5);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+  font-family: Montserrat, Arial, sans-serif;
+  opacity: .5;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s linear 0s;
+
+  &:hover {
+    opacity: 1;
+  }
+}

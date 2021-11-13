@@ -8,6 +8,13 @@
   position: relative;
   cursor: none;
 
+  @include media(779px) {
+    color: #885E5E;
+    &:hover:after {
+      background: #885E5E;
+    }
+  }
+
   &:after {
     content: '';
     display: block;
