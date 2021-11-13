@@ -1405,6 +1405,14 @@ html {
     bottom: 0;
   }
 
+  .lang__link {
+    color: #885E5E;
+  }
+
+  .lang__link:hover:after {
+    background: #885E5E;
+  }
+
   .content {
     width: 100%;
     height: 100%;
