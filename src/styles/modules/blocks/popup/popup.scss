@@ -13,7 +13,11 @@
   transition: visibility 0.5s, opacity 0.5s;
   opacity: 0;
   z-index: 99999999;
+  box-sizing: border-box;
   @include media(781px) {
     display: grid;
+  }
+  @include media(330px) {
+    padding: 20px;
   }
 }

@@ -6,7 +6,16 @@
   position: relative;
   z-index: 10000;
 
-  @include media(779px) {
+  @include media(1023px) {
+    width: 100%;
+    max-width: 600px;
+    left: 50%;
+    margin-left: -300px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  @include media(767px) {
     width: 100%;
     max-width: 400px;
     left: 50%;

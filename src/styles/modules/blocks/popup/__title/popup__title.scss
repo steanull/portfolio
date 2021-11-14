@@ -6,4 +6,8 @@
   -webkit-text-fill-color: transparent;
   margin: 0 0 20px 0;
   padding: 0;
+  @include media(330px) {
+    @include fontTitle(400, 22px, 40px, 1px, #745252);
+    margin: 0 0 10px 0;
+  }
 }

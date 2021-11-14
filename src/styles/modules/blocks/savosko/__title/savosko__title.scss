@@ -15,17 +15,32 @@
   padding: 0;
   pointer-events: none;
   transform: translateZ(50px);
+
   @include media(1400px) {
     @include fontTitle(400, 44px, 54px, 1px, #745252);
     margin: 0 0 60px;
   }
+
   @include media(1279px) {
     @include fontTitle(400, 34px, 44px, 1px, #745252);
     margin: 0 0 40px;
   }
-  @include media(779px) {
+
+  @include media(1023px) {
+    @include fontTitle(400, 44px, 54px, 1px, #745252);
+    margin: 0 0 40px 20px;
+    transform: translateZ(0);
+  }
+
+  @include media(767px) {
     margin: 0 0 20px 10px;
-    @include fontTitle(400, 28px, 44px, 1px, #745252);
+    @include fontTitle(400, 24px, 36px, 1px, #745252);
+    transform: translateZ(0);
+  }
+
+  @include media(330px) {
+    margin: 0 0 20px 10px;
+    @include fontTitle(400, 22px, 32px, 1px, #745252);
     transform: translateZ(0);
   }
 }

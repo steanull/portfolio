@@ -29,8 +29,26 @@
       width: 20px;
       height: 9px;
     }
-    @include media(779px) {
-      transform: translateZ(0);
-    }
   }
+    @include media(1023px) {
+      @include font(400, 18px, 24px, #745252);
+      margin: 0 0 0 10px;
+      transform: translateZ(0);
+      &:before {
+        bottom: 12px;
+        width: 20px;
+        height: 9px;
+      }
+    }
+
+    @include media(767px) {
+      transform: translateZ(0);
+      @include font(400, 16px, 24px, #745252);
+    }
+
+    @include media(330px) {
+      @include font(400, 16px, 24px, #745252);
+      transform: translateZ(0);
+      margin: 0;
+    }
 }

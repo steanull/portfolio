@@ -16,4 +16,8 @@
     background-position: center;
     transform: translateZ(20px);
   }
+
+  @include media(330px) {
+    @include font(300, 14px, 22px, #7F7875);
+  }
 }

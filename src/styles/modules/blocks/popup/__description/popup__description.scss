@@ -1,3 +1,7 @@
 .popup__description {
   @include font (300, 14px, 23px, #A9A5A5);
+
+  @include media(330px) {
+    @include font (300, 12px, 18px, #A9A5A5);
+  }
 }

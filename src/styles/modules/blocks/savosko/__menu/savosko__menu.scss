@@ -10,10 +10,26 @@
   transform: translateZ(40px);
   z-index: 20000;
 
-  @include media(779px) {
+  @include media(1023px) {
+    position: absolute;
+    align-items: flex-end;
+    top: 370px;
+    left: 15px;
+    opacity: .5;
+  }
+
+  @include media(767px) {
     position: absolute;
     align-items: flex-end;
     top: 270px;
+    left: 0;
+    opacity: .5;
+  }
+
+  @include media(330px) {
+    position: absolute;
+    align-items: flex-end;
+    top: 200px;
     left: 0;
     opacity: .5;
   }

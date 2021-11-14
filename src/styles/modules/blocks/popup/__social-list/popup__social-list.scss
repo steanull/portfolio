@@ -1,4 +1,7 @@
 .popup__social-list {
   margin: 50px 0 0;
   padding: 0;
+  @include media(330px) {
+    margin: 30px 0 0;
+  }
 }

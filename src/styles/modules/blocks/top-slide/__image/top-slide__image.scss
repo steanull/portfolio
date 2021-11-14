@@ -4,4 +4,7 @@
   @include media(1400px) {
     max-width: 550px;
   }
+  @include media(1023px) {
+    max-width: 950px;
+  }
 }

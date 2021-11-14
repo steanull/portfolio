@@ -18,4 +18,8 @@
   &:hover {
     opacity: 1;
   }
+
+  @include media(330px) {
+    margin-top: 20px;
+  }
 }
